@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <title>Draft Kings Blackjack - Pay Table</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>How to Bet</h1>
+
+                <h2>Initial Bet</h2>
+                <p>Each new hand, the player has the option to place a new bet.</p>
+                <p>To place a new bet:</p>
+                <ol>
+                    <li>The Player can select any of the available chips located on the bottom of the screen. Each chip represents a different denomination</li>
+                    <li>Clicking a chip places the chip on the table and adds the value of the chip to the Player’s bet.</li>
+                    <li>Once the game’s minimum bet is reached, the Player can begin the game by pressing the Deal button.</li>
+                </ol>
+                <p>While betting the following betting options are available to the Player:</p>
+                <table>
+                    <tr>
+                        <th>Option</th>
+                        <th>Result</th>
+                    </tr>
+                    <tr>
+                        <td><b>Deal</b></td>
+                        <td>Begins the game after the minimum bet has been placed.</td>
+                    </tr>
+                    <tr>
+                        <td><b>Clear</b></td>
+                        <td>Remove all bets currently placed from the table.</td>
+                    </tr>
+                    <tr>
+                        <td><b>X2</b></td>
+                        <td>Double the amount of the bet currently placed.</td>
+                    </tr>
+                </table>
+
+                <hr>
+
+                <h2>Betting Again</h2>
+                <p>After each game, the following commands are available to the Player:</p>
+                <table>
+                    <tr>
+                        <th>Option</th>
+                        <th>Result</th>
+                    </tr>
+                    <tr>
+                        <td><b>Rebet & Deal</b></td>
+                        <td>Starts a new round of blackjack with a bet equal to their previous bet.</td>
+                    </tr>
+                    <tr>
+                        <td><b>New Bet</b></td>
+                        <td>Returns the player to the betting interface with no bets placed.</td>
+                    </tr>
+                    <tr>
+                        <td><b>Rebet</b></td>
+                        <td>Returns the player to the betting interface with a bet equal to their previous bet.</td>
+                    </tr>
+                    <tr>
+                        <td><b>Double Rebet</b></td>
+                        <td>Returns the player to the betting interface with a bet equal to double their previous bet.</td>
+                    </tr>
+                </table>
+
+                <hr>
+
+                <h1>How to Play Blackjack</h1>
+                <h2>Game Overview</h2>
+                <ul>
+                    <li>Blackjack is a card game played using standard 52-card playing deck.</li>
+                    <li>A hand is the combination of the cards dealt.</li>
+                    <li>The game consists of both the Player’s hand or the Dealer’s hand.</li>
+                    <li>Each card had a represented point value.</li>
+                    <li>The value of a hand is determined by adding together the point value of each card within the hand.</li>
+                    <li>The Player’s objective is to have a hand value that greater than the Dealer’s hand value.</li>
+                    <li>If a hand exceeds 21 points, the hand “busts” and automatically loses.</li>
+                    <li>A hand containing an ace and any 10-point card is called a Blackjack.  It is the highest hand and outranks any other 21-point hands.</li>
+                </ul>
+
+                <hr>
+
+                <h2>Card Point Value</h2>
+                <p>There are four suits of cards: Hearts, Spades, Clubs, and Diamonds.  All suits have the same value.  The follow chat indicates the point values of each card:</p>
+                <table>
+                    <tr>
+                        <th>Card</th>
+                        <th>Point Value</th>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Jack</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Queen</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>King</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Ace</td>
+                        <td>1 or 11</td>
+                    </tr>
+                </table>
+                <p>Aces are worth 11 points unless they would cause the hand to bust then their value decrease to 1 point.</p>
+
+                <hr>
+
+                <h2>Playing a Hand</h2>
+                <ol>
+                    <li>After the Player has initiated the game, two cards are dealt to the Player and the Dealer in clockwise order beginning with the Player. The Dealer receives their first card facedown.  All other cards dealt are faceup.</li>
+                    <li>If the two cards dealt to either the Player or the Dealer, have a sum equal to 21 that hand is a "Blackjack" and automatically wins.</li>
+                    <li>If the Dealer’s faceup card is an Ace, the game offers the Player the Blackjack Insurance side bet.</li>
+                    <li>After the Blackjack Insurance side bet is made, the Dealer checks their facedown card.  If the Dealer, has Blackjack the game ends.</li>
+                    <li>If the Player nor the Dealer have Blackjack, the Player can attempt to improve the outcome of their hand by:
+                        <table>
+                            <tr>
+                                <th>Player Action</th>
+                                <th>Result</th>
+                            </tr>
+                            <tr>
+                                <td><b>Hit</b></td>
+                                <td>
+                                    <p>Draw another card from the deck and adds the point value to the hand.</p>
+                                    <p>Players can continue to hit until the hand value becomes 21 or more.</p>
+                                    <p>If the hand value becomes 21, the hand automatically stands.</p>
+                                    <p>If the hand busts, all bets placed on that hand are forfeited.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Split</b></td>
+                                <td>
+                                    <p>This action is only available when the initial two cards dealt are the same value.</p>
+                                    <p>When pressed, an additional bet equal to the main bet is placed and the two cards are separated into two hands.</p>
+                                    <p>Split Aces receive can only one card per split hand.</p>
+                                    <p>Players may split again once per split hand, except for split Aces.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Double Down</b></td>
+                                <td>
+                                    <p>This action is available for the first two cards of any hand.</p>
+                                    <p>Doubles the main bet and draw exactly one more card.</p>
+                                    <p>The first two cards of a split hand can be Doubled Down, except for split Aces.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>If the Player is stratified with the current value of their hand, they may choose the following action:
+                        <table>
+                            <tr>
+                                <th>Player Action</th>
+                                <th>Result</th>
+                            </tr>
+                            <tr>
+                                <td><b>Stand</b></td>
+                                <td>Indicates that the Player wishes to draw no additional cards</td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>When Player’s actions are complete, the Dealer reveals the facedown card.</li>
+                    <li>The Dealer draws until the value of their hand is 17 or higher. If the Dealer's hand value exceeds 21, the Dealer busts and all non-busted hands win.</li>
+                    <li>Compare the Dealer's hand to each non-busted hand to determine the winning hand.  Only the highest values that are less than 21 are used for each hand.</li>
+                </ol>
+
+                <hr>
+
+                <h2>Getting a Blackjack</h2>
+                <p>If the two initial cards dealt to either the Player or the Dealer, equal a sum of 21 that hand is a "Blackjack".</p>
+                <table>
+                    <tr>
+                        <th>Who has Blackjack?</th>
+                        <th>Result</th>
+                    </tr>
+                    <tr>
+                        <td>Player</td>
+                        <td>Player automatically wins and is paid 3 to 2 on the main bet.</td>
+                    </tr>
+                    <tr>
+                        <td>Dealer</td>
+                        <td>Dealer automatically wins, and the Player’s main bet is forfeited.</td>
+                    </tr>
+                    <tr>
+                        <td>Both Player and Dealer</td>
+                        <td>This is a tie and the Player’s bet is returned.</td>
+                    </tr>
+                </table>
+
+                <hr>
+
+                <h2>Blackjack Insurance Side Bet</h2>
+                <p>Blackjack Insurance is a side bet offered by the game when the Dealer's faceup card is an Ace. If the Player accepts the Insurance bet offer, another bet equal to half the main bet is placed before the Dealer's hand is checked for Blackjack.</p>
+                <table>
+                    <tr>
+                        <th>Who has Blackjack?</th>
+                        <th>Result</th>
+                        <th>Insurance Bet Outcome</th>
+                    </tr>
+                    <tr>
+                        <td>Blackjack</td>
+                        <td>Forfeited</td>
+                        <td>Paid 2 to 1</td>
+                    </tr>
+                    <tr>
+                        <td>Not Blackjack</td>
+                        <td>Remains active</td>
+                        <td>Forfeited</td>
+                    </tr>
+                </table>
+                <p>If the Dealer's face-up card is a 10-value card, the Dealer's face-down card is checked without any Insurance bet offer. </p>
+
+                <hr>
+
+                <h2>Additional Rules</h2>
+                <ul>
+                    <li>Dealer must draw on 16.</li>
+                    <li>Dealer must stand on all 17's. This includes soft values where an Ace is worth 11.</li>
+                    <li>Cards are dealt from eight decks of standard playing cards, shuffled for each game.</li>
+                    <li>Malfunction voids all pays and plays.</li>
+                </ul>
+
+                <hr>
+
+                <p>All trademarks are registered trademarks or pending trademarks of DraftKings and/or its licensors in the U.S. and/or other countries. © 2019 DraftKings. All rights reserved.</p>
+
+                <hr>
+
+                <h2>Options</h2>
+                <p><b>Animation:</b> disable to skip non-critical animations and speed up gameplay.</p>
+                <p><b>Audio:</b> enable/disable game sounds.</p>
+                <p><b>Offer Insurance:</b> when enabled, insurance will be offered if the dealer has a potential blackjack.</p>
+                <p><b>Saftey Net:</b> enable/disable (on/off) the safety net that warns you if you attempt to hit on a soft 20 or on a hard 17 and above.</p>
+                <p><b>Left Handed:</b> swaps the position of buttons for left handed players.</p>
+                <p><b>Felt:</b> press to cycle through various felt options.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
