@@ -1,24 +1,11 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block; }
 
 body {
@@ -27,8 +14,7 @@ body {
 blockquote, q {
   quotes: none; }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before, blockquote:after, q:before, q:after {
   content: '';
   content: none; }
 
@@ -58,18 +44,7 @@ table {
   margin: 0.5rem 2%;
   min-height: 0.125rem; }
 
-.col-1,
-.col-2,
-.col-3,
-.col-4,
-.col-5,
-.col-6,
-.col-7,
-.col-8,
-.col-9,
-.col-10,
-.col-11,
-.col-12 {
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
   width: 96%; }
 
 .col-1-sm {
@@ -173,34 +148,31 @@ table {
   border-collapse: collapse;
   margin-bottom: 0.5rem;
   width: 100%; }
-  table th,
-  table td {
-    border: 1px solid #303030; }
-  table tr:first-child th {
-    border-top: 0; }
-  table tr:last-child td {
-    border-bottom: 0; }
-  table tr td:first-child,
-  table tr th:first-child {
-    border-left: 0; }
-  table tr td:last-child,
-  table tr th:last-child {
-    border-right: 0; }
-  table th {
-    text-align: center;
-    background-color: #303030;
-    color: #FFFFFF;
-    font-size: 14px;
-    padding: 16px; }
-  table td {
-    background-color: #EDEDED;
-    border: 1px solid #303030;
-    color: #000000;
-    font-size: 12px;
-    text-align: center;
-    padding: 8px 16px; }
-    table td.tall {
-      line-height: 15px; }
+table th, table td {
+  border: 1px solid #303030; }
+table tr:first-child th {
+  border-top: 0; }
+table tr:last-child td {
+  border-bottom: 0; }
+table tr td:first-child, table tr th:first-child {
+  border-left: 0; }
+table tr td:last-child, table tr th:last-child {
+  border-right: 0; }
+table th {
+  text-align: center;
+  background-color: #303030;
+  color: #FFFFFF;
+  font-size: 14px;
+  padding: 16px; }
+table td {
+  background-color: #EDEDED;
+  border: 1px solid #303030;
+  color: #000000;
+  font-size: 12px;
+  text-align: center;
+  padding: 8px 16px; }
+table td.tall {
+  line-height: 15px; }
 
 h1, h2 {
   color: #000000;
@@ -220,14 +192,13 @@ p {
 b {
   font-weight: bold; }
 
-ul,
-ol {
+ul, ol {
   padding-left: 16px; }
 
 li {
   line-height: 18px; }
-  li table {
-    margin: 0.5rem 0; }
+li table {
+  margin: 0.5rem 0; }
 
 hr {
   border: 0.5px solid #EDEDED;
